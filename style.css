@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, rgb(147, 238, 230), rgb(235, 128, 194));
+    min-height: 100vh;
+}
+
+.todo-input {
+    border-radius: 10px;
+    height: 37px;
+    width: 32rem;
+    border-color: rgb(172, 240, 172);
+}
+
+.todo-button {
+    width: 12rem;
+    border-radius: 8px;
+    background-color: rgb(84, 238, 45);
+    border: white;
+    height: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.trash-btn {
+    background-color: rgb(167, 8, 8);
+    color: white;
+    border-radius: 7px;
+    padding: 1rem;
+    border: white;
+}
+
+
+.complete-btn {
+    background-color: rgb(253, 215, 0);
+    color: white;
+    border-radius: 7px;
+    padding: 1rem;
+    border: white;
+    margin: 8px;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.fall {
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+
+}
